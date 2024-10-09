@@ -1,0 +1,6 @@
+
+# Command Injection
+```bash
+msfconsole
+
+```
