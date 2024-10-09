@@ -29,6 +29,9 @@ run -j
 
 # On attacker host
 sudo nano /etc/proxychains.conf
-# add "socks5 127.0.0.1 1080" to the last line
+# set proxies to "socks5 127.0.0.1 1080" 
+
+# Run nmap
+proxychains nmap -sT -Pn <ip/cidr>
 
 ```
