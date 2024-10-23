@@ -1,3 +1,4 @@
+#fuzzing
 
 https://github.com/ffuf/ffuf
 
